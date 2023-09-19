@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #7AAC95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.box {
+  height: 45rem;
+  width: 85rem;
+  background-color: #B5EACC;
+  margin-bottom: 20rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.5rem 0.2rem 1rem rgba(0, 0, 0, 0.336);
+}
+
+
+
+.circle {
+  height: 5rem;
+  width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20rem;
+  margin-bottom: 10rem;
+
+}
+
+
+
+
+.advise{
+/* align-content: center; */
+font-size: 3.5rem;
+text-align: center;
+}
+.buttonDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60.0rem;
+  height: 20rem ;
+}
+
+
+
+.advisePara{
+  height: 5rem;
+  /* display: flex;
+  justify-content: center; */
+  
+}
+
+
+
+
+.btn{
+  height: 3.5rem;
+  width: 8.0rem;
+  border-radius: 0.1rem;
+  background-color: #abb5b0;
+  font-size: 1.8rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000000;
+  transition: 0.1s  ease-in-out;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 1.5rem 0.1rem  rgba(0, 0, 0, 0.336);
+}
+
+.btn:hover{
+  /* color: rgb(70, 73, 73); */
+  height: 3.8rem;
+  width: 8.3rem;
+  font-size: 1.6rem;
+  
+}
+
+.heading{
+  margin-bottom: 5.0rem;
+  font-size: larger;
+
+}
+
+.heading h1{
+  font-size:5.0rem;
+}
+
+
+
+
+@media  (max-width: 998px) {
+  html{
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html{
+    font-size:45%;
+  }
+}
+@media (max-width: 538px) {
+  html{
+    font-size:40%;
+  }
+}
+@media (max-width: 308px) {
+  html{
+    font-size:35%;
+  }
+}
+
