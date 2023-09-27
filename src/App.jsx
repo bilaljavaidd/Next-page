@@ -54,7 +54,7 @@ function App() {
 
           <div className='advisePara'>
             <p className='advise'>
-           
+
               {
                 advise[myCounter - 1]
               }
